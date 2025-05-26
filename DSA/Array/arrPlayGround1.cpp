@@ -44,7 +44,7 @@ void swapmaxmin(vector<int>& arr){
 vector<int> unique(vector<int> & arr){
     vector<int>d;
     for(int elements:arr){
-        for(int ele:arr){
+        for(int ele:arr[::]){
             if (elements=ele){
                 d.push_back(elements);
             }
