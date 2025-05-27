@@ -35,7 +35,7 @@ int linearcomp(int arr[],int n){
     for(int i=0;i<n;i++){
         currsum+=arr[i];
         maxsum=max(maxsum,currsum);
-        if(currsum<0){
+        if(currsum<=0){
             currsum=0;
         }
     }
