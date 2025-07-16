@@ -3,11 +3,16 @@
 using namespace std;
 
 void bubble(vector<int>& arr, int n) {
-    for (int i = 0; i < n - 1; i++) {             // outer loop
-        for (int j = 0; j < n - i - 1; j++) {     // inner loop
+    for (int i = 0; i < n - 1; i++) { 
+        bool flag = false; 
+        for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
-                swap(arr[j], arr[j + 1]);         // correct swap
+                swap(arr[j], arr[j + 1]);
+                flag = true;
             }
+        }
+        if(!flag){
+            break;
         }
     }
 }
