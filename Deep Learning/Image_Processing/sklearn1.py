@@ -8,4 +8,5 @@ img = io.imread(r"D:\Photos\cars\lr.jpg")
 print(type(img)) # <class 'numpy.ndarray'>
 print(img.shape) # (3376, 6000, 3)
 
+#
 plt.show(args, kwargs)

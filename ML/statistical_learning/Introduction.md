@@ -1,0 +1,1 @@
+I'm following the book "An Introduction to statistical Learning" by Gareth James, Daniela witten, Trevor Hastie, Robert Tibshirani.
